@@ -1,0 +1,83 @@
+h1{
+    background-color: rgba(32, 160, 32, 0.664);
+    color: rgb(235, 238, 240);
+    height: 4rem;
+    padding-top: 2rem
+}
+
+table{
+    border-collapse: ;
+   
+   }
+.liste{
+    width: 35rem;
+    height: 15rem;
+}
+
+.liste tr:first-child{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+.liste tr:last-child{
+    background-color: rgb(80, 80, 80);
+    color: white;
+    text-align: end;
+    
+}
+
+.liste tr:nth-child(3){
+    background-color: rgb(237, 233, 233);
+}
+
+.liste tr:nth-child(5){
+    background-color: rgb(237, 233, 233);
+}
+.liste tr:nth-child(7){
+    background-color: rgb(237, 233, 233);
+}
+
+.liste tr:nth-child(2){
+    background-color:rgb(202, 198, 199);
+}
+
+.liste tr:nth-child(4){
+    background-color:rgb(202, 198, 199);
+}
+.liste tr:nth-child(6){
+    background-color:rgb(202, 198, 199);
+}
+
+
+.liste td:nth-child(3){
+    text-align: center;
+}
+.liste td:nth-child(4){
+    text-align:end;
+}
+
+.liste td:nth-child(5){
+    text-align:end;
+}
+.liste td:nth-child(4):after{
+    content: '₺';
+
+
+}
+
+.liste td:nth-child(5):after{
+    content: '₺';
+
+
+}
+
+.liste tr:last-child{
+    width: 40rem;
+}
+button{
+  float: right;  
+  background-color: rgb(239, 133, 116);
+  margin-right: 1rem;
+  color: white;
+  margin-top: 1rem;
+  padding: 9px 6px;
+}
